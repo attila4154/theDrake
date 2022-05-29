@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane id="endPane" fx:id="endPane" maxHeight="640" maxWidth="770" minHeight="640" minWidth="770" prefHeight="640.0" prefWidth="770.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.thedrake.ui.Controller">
+   <children>
+      <Button layoutX="262.0" layoutY="299.0" mnemonicParsing="false" onAction="#startingScreen" prefHeight="49.0" prefWidth="258.0" text="Main Menu" />
+      <Button layoutX="264.0" layoutY="375.0" mnemonicParsing="false" onAction="#startDrake" prefHeight="49.0" prefWidth="252.0" text="Again" />
+      <Label id="endLabel" fx:id="endText" alignment="CENTER" layoutX="91.0" layoutY="209.0" prefHeight="16.0" prefWidth="580.0" text="Label" />
+   </children>
+</Pane>

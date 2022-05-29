@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane id="mainMenu" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750" prefWidth="770" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.thedrake.ui.Controller">
+   <children>
+      <Button layoutX="270.0" layoutY="191.0" mnemonicParsing="false" onAction="#startDrake" prefHeight="55.0" prefWidth="231.0" text="2 Players" />
+      <Button layoutX="270.0" layoutY="284.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="231.0" text="1 Player" />
+      <Button layoutX="270.0" layoutY="375.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="231.0" text="Multiplayer" />
+      <Button layoutX="270.0" layoutY="465.0" mnemonicParsing="false" onAction="#exitProgram" prefHeight="55.0" prefWidth="231.0" text="Exit" />
+      <Label id="mainLabel" layoutX="236.0" layoutY="35.0" text="The Drake">
+      </Label>
+   </children>
+</Pane>
